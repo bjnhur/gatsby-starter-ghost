@@ -51,6 +51,7 @@ module.exports = {
     siteMetadata: {
         siteUrl: process.env.SITEURL || config.siteUrl,
     },
+    pathPrefix: "/gatsby-starter-ghost",
     trailingSlash: 'always',
     plugins: [
         /**
