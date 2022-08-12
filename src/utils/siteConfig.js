@@ -1,8 +1,7 @@
 const config = require(`../../.ghost.json`).production;
 module.exports = {
     siteUrl:
-        process.env.NODE_ENV === `production`
-            ? process.env.SITE_URL || config.siteUrl || `http://localhost:8000`
+        process.env.NODE_ENV === `production` ? `https://bjnhur.github.io`
             : `http://localhost:8000`, // Site domain. Do not include a trailing slash!
 
     postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
